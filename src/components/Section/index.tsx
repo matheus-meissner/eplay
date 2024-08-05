@@ -9,8 +9,8 @@ export type Props = {
 const Section = ({ title, background, children }: Props) => (
   <Container background={background}>
     <div className="container">
-      <Title>{title}</Title>
       {children}
+      <Title>{title}</Title>
     </div>
   </Container>
 )
