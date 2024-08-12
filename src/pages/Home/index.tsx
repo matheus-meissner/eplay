@@ -1,11 +1,5 @@
 import Banner from '../../components/Banner'
 import ProductsList from '../../components/ProductsList'
-import resident from '../../assets/images/resident.png'
-import diablo from '../../assets/images/diablo.png'
-import zelda from '../../assets/images/zelda.png'
-import starWars from '../../assets/images/star_wars.png'
-import streetFighter from '../../assets/images/street-fighter.png'
-import fifa from '../../assets/images/fifa.png'
 import { useEffect, useState } from 'react'
 
 export interface GalleryItem {
@@ -54,7 +48,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <ProductsList games={promocoes} title="Promocoes" background="gray" />
+      <ProductsList games={promocoes} title="Promoções" background="gray" />
       <ProductsList games={emBreve} title="Em Breve" background="black" />
     </>
   )
