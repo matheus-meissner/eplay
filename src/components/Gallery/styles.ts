@@ -18,13 +18,13 @@ export const Action = styled.div`
   background-color: rgba(0, 0, 0, 0.73);
   opacity: 0;
   transition: opacity 0.5s ease;
-  cursor: pointer;
 `
 
 export const Play = styled.div``
 
 export const Item = styled.li`
   position: relative;
+  cursor: zoom-in;
 
   > img {
     border: 2px solid ${cores.branca};
